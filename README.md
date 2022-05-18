@@ -50,3 +50,9 @@ git branch newBranchName
 
 git checkout newBranchName
 -
+
+
+SEND LOCAL REPO TO NEW GITHUB REPO
+git remote add origin https://github.com/Nateomancer/Branching.git
+git branch -M main
+git push -u origin main
