@@ -40,14 +40,13 @@ git log -oneLine
 git log
 -one line
 
-
 BRANCHING
 
 git branch
 -local branch
 
-git branch newBranch
+git branch newBranchName
 -
 
-git checkout newBranch
+git checkout newBranchName
 -
