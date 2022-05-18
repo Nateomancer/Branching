@@ -22,6 +22,7 @@ git commit -m "some message"
 git init
 -initiliaze a new local repo
 
+
 INFORMATION COMMANDS
 
 git status
@@ -31,9 +32,22 @@ git status
 -are there any updates to commit
 
 git log
--
+-history of local branch commits
+
 git log -oneLine
--
+-condensed history of local branch commits
 
 git log
 -one line
+
+
+BRANCHING
+
+git branch
+-local branch
+
+git branch newBranch
+-
+
+git checkout newBranch
+-
