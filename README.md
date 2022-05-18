@@ -12,8 +12,17 @@ git version
 
 
 
+BASIC COMMANDS
+git add .
+-stage local changes for commit
+
+git commit -m "some message"
+-commit staged changes
+
 git init
 -initiliaze a new local repo
+
+INFORMATION COMMANDS
 
 git status
 -staus of local working directory
@@ -21,9 +30,10 @@ git status
 -what files are staged, what files have changed
 -are there any updates to commit
 
+git log
+-
+git log -oneLine
+-
 
-git add .
--stage local changes for commit
-
-git commit -m "some message"
--commit staged changes
+git log
+-one line
